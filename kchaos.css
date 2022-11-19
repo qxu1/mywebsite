@@ -164,6 +164,8 @@ nav ul #contact a:hover {
     nav ul li a{
         font-size:30px;
         color:#000000;
+	background-color: white;
+        border-radius: 100px;
     }
     nav li a:hover {
         color:white;
