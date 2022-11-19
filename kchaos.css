@@ -556,10 +556,10 @@ footer {
 }
 
 
-.artworks:hover {
+/**.artworks:hover {
     transform: scale(1.2);
     transition: 1s;
-}
+}**/
 
 ::-webkit-scrollbar
 {
