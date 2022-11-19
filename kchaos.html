@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width,initial-scale = 1.0">
+    <link rel="stylesheet" href="kchaos.css">
+    <script src="nav.js" defer></script>
+    <title>kchaos's website</title>
+    <link rel = "shortcut icon" type = "image/png" href = "images/icon.jpg">
+
+</head>
+<!---navigate bar-->
+
+<body>
+    <header class="primary-header flex">
+        <!--logo 
+        div
+            <img
+        </div-->
+        <!--<button class="mobile-nav-toggle" data-visible = "false" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            
+        </button>-->
+            <nav>
+                <input type = "checkbox" id = "check">
+                <label for = "check" class = "checkbtn">
+                    <i class = "fas fa-bars"></i>
+                </label>
+                <ul id="primary-navigation" class="primary-navigation flex">
+                    <li class="active"><a href="kchaos.html">
+                        <span aria-hidden="true"></span>Home
+                    </a></li>
+                    <li><a href="drawing.html">
+                        <span aria-hidden="true"></span>Drawing
+                    </a></li>
+                <li><a href="digitaldrawing.html">
+                        <span aria-hidden="true"></span>DigitalArt
+                    </a></li>
+                <li><a href="modeling.html">
+                        <span aria-hidden="true"></span>3DArt
+                    </a></li>
+                <li><a href="coding.html">
+                        <span aria-hidden="true"></span>Coding
+                    </a></li>
+                </ul>
+            </nav>
+    </header>
+    <!--background image-->
+    <span id="home"></span>
+    <div class="background-img">
+        <!--links for font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    </div>
+    <!--top container-->
+    <section class="home">
+        <div class="container">
+            <div class="profile">
+                <img src="images/ICE..png">
+                <div>
+                    <h1>Qichao Xu &#60;K超&#62;</h1>
+                    <h5>Illustrator &#183; Developer
+                        &#183; 3D-Modeler</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--about section-->
+    <section class="about">
+        <div class="main">
+            <div><img src="images/buggaFINAL.png"></div>
+            <div class="about-text">
+                <div>
+                <h2><span id="about"></span>About Me</h2>
+                <h5>Developer & <span>Designer</span></h5>
+                <p>I'm Qichao Xu, from Quanzhou China, grew up in Santa Barbara. I'm interested in programming, art, and 3d-modeling. I'm majoring in computer science at the University of California Santa Cruz. I love to do art, and as I grew up, I tried to expand my skills,
+                    such as digital painting, 3D modeling, and coding, and I tried to learn different types of skills so I can design and create my art.<p>
+                </div>
+                <a href="#social"><button class="all-button">Contact</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--box section-->
+    <section>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <!--links for the icon-->
+        <div class="service">
+            <span id="work"></span>
+            <div class="title-bar">
+                <h2>Works</h2>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <i class="fa-solid fa-pencil"></i>
+                    <h5>drawing</h5>
+                        <div class="pra">
+                            <div>
+                            <p>able to draw with copic markers and colored pencils, understand the shadow effects of light sources, able to create and design game concept drawings, and make realistic artworks.</p>
+                            <p style="text-align: center;">
+                                <a class="button" href="/drawing.html">More</a>
+                            </p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h5>digital drawing</h5>
+                        <div class="pra">
+                            <div>
+                            <p>familiar with photoshop and clip studio paint software, able to make digital art, 2D animation and concept art for games, able to do product design, Typography and graphic design.</p>
+                            <p style="text-align: center;">
+                                <a class="button" href="digitaldrawing.html">More</a>
+                            </p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-cube"></i>
+                    <h5>3d model </h5>
+                        <div class="pra">
+                            <div>
+                            <p>familiar with 3d blender software, able to make hard surface 3d models understanding UV mapping, textures, shaders, rigging, and rendering. can also use 3d printer to produce physical objects.</p>
+                            <p style="text-align: center;">
+                                <a class="button" href="modeling.html">More</a>
+                            </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h5>coding</h5>
+                        <div class="pra">
+                            <div>
+                            <p>familiar with python/C++ language, understanding data structures, and algorithums, able to use HTML + CSS languages to design and make websites. able to make UI and UX design.</p>
+                            <p style="text-align: center;">
+                                <a class="button" href="coding.html">More</a>
+                            </p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    
+
+    <!--prject section-->
+
+    <div class="art-grid">
+        <div>
+            <img class="artworks" src="images/gundam01.png">
+        </div>
+        <div>
+            <img class="artworks" src="images/psyduckpng.png">
+        </div>
+        <div>
+            <img class="artworks" src="images/projectdfinal.png">
+        </div>
+        <div>
+            <img class="artworks" src="images/mecha5.png">
+        </div>
+        <div>
+            <img class="artworks" src="images/doctor strange.jpg">
+        </div>
+        <div>
+            <img class="artworks" src="images/bbpod.png">
+        </div>
+        <div>
+            <img class="artworks" src="images/luckycat.png">
+        </div>
+        <div>
+            <img class="artworks" src="images/shark.jpg">
+        </div>
+        <div>
+            <img class="artworks" src="images/doraemon..png">
+        </div>
+    </div>
+
+
+    <!--contact info-->
+    <div class="contactinfo"><span id="social"></span>
+        <p>Feel free to connect with me, let's make some cool stuff!</p>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <p style="font-size:50px;color:white;">Qichao Xu</p>
+        <div class="social">
+            <a href="https://kchaosx.artstation.com/" target="_blank"><i class="fa-brands fa-artstation"></i></a>
+            <a href="https://www.linkedin.com/in/qichao-xu-5527231b6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:qichaoxu805@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <!--<a href="#"><i class="fa-brands fa-weixin"></i></a>-->
+            <a href="https://www.instagram.com/kachxw_x/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://github.com/qxu1" target = "_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p style="font-size:15px;color:gray;"> © website made by Qichao Xu</p>
+    </footer>
+</body>
+
+</html>
